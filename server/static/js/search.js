@@ -10,8 +10,12 @@ function search() {
       console.log(data);
       _.each(data, function(r){
         if (r.result_type == 'procedure') {
+          r.name = r.name.toLowerCase();
+          r.name = r.name.charAt(0).toUpperCase() + r.name.slice(1);
           r.extra = translateOption(r.extra);
         }
+        r.name = r.name.replace(',', ', ');
+        r.name = r.name.replace('/', '/ ');
       });
       $('.searchDropDown').remove();
       $('.inputContainer').append(resultTemplate({rows: data}));
@@ -42,6 +46,9 @@ function translateOption(op) {
        out += "(Major) Complications / Comorbidites ";
     }
   }); 
+  if (out.length == 0) {
+    return op;
+  }
   return out;
 }
 

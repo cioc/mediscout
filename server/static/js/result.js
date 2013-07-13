@@ -6,6 +6,32 @@ var hospitalTemplate = _.template(hospitalTemplateStr);
 
 var procedureTemplate = _.template(procedureTemplateStr);
 
+function translateOption(op) {
+  var pieces = op.split(' ');
+  var out = '';
+  _.each(pieces, function(p){
+    if (p == 'W'){
+      out += "With ";
+    }
+    if (p == 'W/O') {
+      out += "Without ";
+    }
+    if (p == 'CC') {
+      out += "Complications / Comorbidities "; 
+    }
+    if (p == 'MCC') {
+      out += "Major Complications / Comorbidites ";
+    }
+    if (p == 'CC/MCC') {
+       out += "(Major) Complications / Comorbidites ";
+    }
+  }); 
+  if (out.length == 0) {
+    return op;
+  }
+  return out;
+}
+
 $(document).ready(function(req, res){
   var path = window.location.pathname;
   var pieces = path.split('/');
@@ -24,7 +50,10 @@ $(document).ready(function(req, res){
       _.each(data, function(i){
         i.name = i.name.toLowerCase();
         i.name = i.name.charAt(0).toUpperCase() + i.name.slice(1);
+        i.name = i.name.replace(',', ', ');
+        i.name = i.name.replace('/', '/ ');
         i.billed = Math.round(i.billed * 100) / 100;
+        i.options = translateOption(i.options);
       });
       $('.inputContainer2').after(hospitalTemplate({rows: data}));
     }, 'json'); 
