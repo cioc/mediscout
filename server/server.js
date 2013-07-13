@@ -109,7 +109,7 @@ app.get('/api/procedure/:id', function(req, res){
 });
 
 app.get('/api/procedure/:id/hospitals', function(req, res){
-  query = "SELECT costs.fed_id, costs.fed_proc_id, procedures.name as procedureName, procedures.options, procedures.description, procedures.elective, costs.billed, costs.paid, hospitals.name as hospitalName, hospitals.lat, hospitals.lng, hospitals.neighborhood, hospitals.addr, hospitals.addr, hospitals.city, hospitals.state, hospitals.zip FROM costs JOIN hospitals ON costs.fed_id = hospitals.fed_id JOIN procedures ON costs.fed_proc_id = procedures.fed_proc_id where costs.fed_proc_id = ?";
+  query = "SELECT costs.fed_id, costs.fed_proc_id, procedures.name as procedureName, procedures.options, procedures.description, procedures.elective, costs.billed, costs.paid, hospitals.name as hospitalName, hospitals.lat, hospitals.lng, hospitals.neighborhood, hospitals.addr, hospitals.addr, hospitals.city, hospitals.state, hospitals.zip FROM costs JOIN hospitals ON costs.fed_id = hospitals.fed_id JOIN procedures ON costs.fed_proc_id = procedures.fed_proc_id where costs.fed_proc_id = ? ORDER BY costs.billed ASC";
   db.query(query, [req.params.id], function(err, rows){
     if (err) {
       res.send({err: "error in /api/procedure/:id/hospitals 1"});

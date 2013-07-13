@@ -1,0 +1,300 @@
+body {
+  background-image: url("/img/backgroundpattern-16.png")
+}
+
+a {
+  text-decoration: none;
+}
+
+.centerImg {
+  padding-top: 4em;
+  width: 100%;
+  text-align: center;
+  align: center;
+  margin-top: 0em;
+}
+
+.logoBackground {
+  background-color: rgba(216, 52, 39, .8);
+  width: 100%;
+  height: 4.5em;
+}
+
+.logoDiv {
+  max-width: 20em;
+  padding-top: 0.3em;
+  padding-bottom: 0.2;
+  margin: auto;
+}
+
+.inputContainer {
+	width: 100%;
+	background-color: rgba(255,255,255,0.8);
+  margin: auto;
+  box-shadow: 0px 1px 1px rgba(0,0,0,0.25);
+  position: relative;
+  height: 4.5em;
+  z-index: 1;
+}
+
+.inputContainer2 {
+	width: 100%;
+	background-color: rgba(255,255,255,0.8);
+  margin: auto;
+  box-shadow: 0px 1px 1px rgba(0,0,0,0.25);
+  position: relative;
+  height: 3.8em;
+  z-index: 1;
+  text-align: center;
+}
+
+#email {
+	border: 0px;
+	background-color: rgba(0,0,0,0);
+  font-size: 1.6em;
+  height: 1.8em;
+  width: 99%;
+  padding-right: 0.2em;
+  margin: auto;
+}
+
+input {
+  text-align: center;
+}
+
+#searchIcon {
+  max-width: 2em;
+  padding-top:0.5em;
+  position: absolute;
+}
+
+#searchIconSmall {
+  max-width: 1.7em;
+  padding-top:0.7em;
+  position: absolute;
+}
+
+#searchBtn {
+	border: 0px;
+	width: 100%;
+	background-color: rgba(86, 181, 78, 0.8);
+  color: #FFFFFF;
+  font-size: 2em;
+  height: 2em;
+  box-shadow: 0px 1px 1px rgba(0,0,0,0.4);
+}
+
+.searchDropDown {
+  position: relative;
+  margin-top: 0.5em;
+  background-color: rgba(255,255,255,0.8);
+  box-shadow: 0px 3px 6px rgba(0,0,0,0.5);
+  height: 5em;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.textLine {
+  margin: 0px;
+  margin-bottom: 0.7em;
+  opacity: 0.5;
+}
+
+.form-signin {
+  padding: 0.9em 1.3em 0em;
+}
+
+#signUp {
+  position: relative;
+  margin: auto;
+  margin-top: 2.5em;
+  margin-bottom: 0.5em;
+  height: 5.5em;
+}
+
+#downArrows {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  max-width:2em;
+}
+
+#loginLink {
+  margin: auto;
+  max-width: 20em;
+  text-align: center;
+  font-size: 0.9em;
+}
+  
+.searchText {
+  margin: auto;
+  padding-top: 0.5em;
+  padding-left: 0.8em;
+  text-align: left;
+  font-size: 1em;
+}
+
+.searchTextDescription {
+  margin: auto;
+  padding-top: 0em;
+  padding-left: 0.8em;
+  text-align: left;
+  font-size: 1em;
+}
+
+#navBarContainer {
+  background-color: #323232;
+  width: 100%;
+  height: 3.5em;
+}
+
+#navBarTitle {
+  margin: auto;
+  color: #FFFFFF;
+  height: 3em;
+  font-size: 2.4em;
+  text-align: center;
+  padding-top: 0.5em;
+  font-weight: 100;
+}
+
+/*
+.cellTemplate {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  height: 5.5em;
+  position: relative;
+  margin-bottom: 0.2em;
+}
+
+.cellTextContainer {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-top: 0.5em;
+  float:left;
+}
+*/
+
+.descriptionContainer {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  padding-bottom: 0.5em;
+  margin-bottom: 0.8em;
+  overflow: hidden;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.descriptionTextContainer {
+  padding-left: 0.8em;
+  padding-right: 0.8em;
+  padding-top: 0.8em;
+  width: 100%;
+}
+
+.descriptionText {
+  font-size: 1em;
+  width: 100%;
+}
+
+.distanceFrom {
+  font-style: oblique;
+}
+
+.arrowIcon {
+  padding-top: 0.8em;
+  padding-bottom: 1em;
+  float: right;
+  width: 3.5em;
+}
+
+.cellHeader {
+  font-size: 1.5em;
+  padding-bottom: 0.2em;
+  font-weight: 400;
+}
+
+#searchResultLabel {
+  font-size: 1.8em;
+  margin: auto;
+  padding-top: 0.6em;
+  font-weight: 300;
+}
+
+.avgPrice {
+  color: #C42626;
+}
+
+.hospitalImage {
+  width: 100%;
+  max-width: 24em;
+  margin-top: 0.5em;
+  margin-bottom: 0.7em;
+  position: relative;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+#hospitalName {
+  margin-left: 0.3em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.columnContainer {
+  display: block;
+  clear: both;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.columnLeft {
+  background-color: rgba(50, 50, 50, 0.3);
+  width:49%;
+  display: block;
+  clear: both;
+  float: left;
+}
+
+.columnRight {
+  background-color: rgba(50, 50, 50, 0.3);
+  width:49%;
+  display: block;
+  float: right;
+}
+
+.columnHeader {
+  font-size: 0.9em;
+  margin-left: 0.5em;
+  margin-top: 0.3em;
+  padding-bottom: 1.2em;
+  font-weight: 400;  
+  color: #000000
+}
+
+.priceInColumn {
+  font-size: 3.2em;
+  font-weight: 100;
+  text-align: center;
+  padding-bottom: 0.5em;
+  color: #000000
+}
+
+.doctorName {
+  font-size: 0.9em;
+  font-weight: 400;
+  color: #000000;
+}
+
+.doctorCategory {
+  font-size: 1.5em;
+  font-weight:200;
+  padding-bottom: 0.3em;
+}
+
+.doctorInfoTextContainer {
+  background-color: rgba(50, 50, 50, 0.3);
+  padding: 0.5em;
+  padding-right: 0.5em;
+}
