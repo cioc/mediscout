@@ -8,6 +8,11 @@ function search() {
   if (v.length > 0) {
     $.get('/api/search/'+v, function(data){
       console.log(data);
+      _.each(data, function(r){
+        if (r.result_type == 'procedure') {
+          r.extra = translateOption(r.extra);
+        }
+      });
       $('.searchDropDown').remove();
       $('.inputContainer').append(resultTemplate({rows: data}));
     }, 'json');
@@ -15,6 +20,29 @@ function search() {
   else {
     $('.searchDropDown').remove();
   }
+}
+
+function translateOption(op) {
+  var pieces = op.split(' ');
+  var out = '';
+  _.each(pieces, function(p){
+    if (p == 'W'){
+      out += "With ";
+    }
+    if (p == 'W/O') {
+      out += "Without ";
+    }
+    if (p == 'CC') {
+      out += "Complications / Comorbidities "; 
+    }
+    if (p == 'MCC') {
+      out += "Major Complications / Comorbidites ";
+    }
+    if (p == 'CC/MCC') {
+       out += "(Major) Complications / Comorbidites ";
+    }
+  }); 
+  return out;
 }
 
 var myTimeout = null;

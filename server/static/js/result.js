@@ -39,7 +39,8 @@ $(document).ready(function(req, res){
     }, 'json'); 
     $.get('/api/procedure/'+id+'/hospitals', function(data){
       console.log(data);    
-       _.each(data, function(i){
+      _.each(data, function(i){
+        i.billed = Math.round(i.billed * 100) / 100;
       });
       $('.inputContainer2').after(procedureTemplate({rows: data}));
     }); 
