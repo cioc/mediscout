@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="Hospital">
+  <name>Hospital</name>
+  <Snippet></Snippet>
+  <Folder id="FeatureLayer0">
+    <name>Hospital</name>
+  <Snippet></Snippet>
+    <Placemark>
+      <name>Thorek Hospital &#38; Med Ctr</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.651699,41.955030,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Methodist Hospital of Chicago</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.670007,41.972367,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Advocate Christ Medical Center</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.733353,41.720221,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Evanston Hospital</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.683201,42.065678,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gottlieb Memorial Hospital</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.842820,41.908258,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Holy Cross Hospital</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.692403,41.769181,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Holy Family Hospital</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.888751,42.056015,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ingalls Memorial Hospital</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.659479,41.606955,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Jackson Park Hosp. Foundation</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.585102,41.757434,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Loretto Hospital</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.763577,41.872147,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Little Company of Mary Hospital and Health Care Ce</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.691984,41.720841,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mercy Hospital &#38; Medical Center</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.621304,41.846786,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mount Sinai Hospital Medical Center</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.694833,41.860615,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Northwest Community Hospital</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.993107,42.066586,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Our Lady of Resurrection Medical Center</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.767820,41.945468,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Oak Forest Hospital</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.736491,41.603253,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rush Oak Park Hospital</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.803852,41.879329,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rush University Medical Center</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.669947,41.874498,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Resurrection Medical Center</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.813838,41.987129,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Roseland Community Hospital</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.625055,41.692232,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Schwab Rehabilitation Center</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.695016,41.862241,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Skokie Hospital</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.739315,42.055847,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Alexian Brothers Medical Center</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -88.016343,42.003470,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>St. Bernard Hospital</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.633054,41.778546,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>St. Elizabeth's Hospital</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.685477,41.907560,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>St. Francis Hospital</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.685162,42.024060,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>St. James Hospital &#38; Health Center</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.640928,41.505276,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Saint Joseph Health Centers &#38; Hospital</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.637277,41.933737,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Saint Mary Of Nazareth Hospital</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.683350,41.902549,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Swedish Covenant Hospital</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.697916,41.975085,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>University of Illinois Hospital</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.670869,41.869599,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>West Suburban Hospital</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.775033,41.891872,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Westlake Community Hospital</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.848394,41.891646,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Children's Memorial Hospital</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.647076,41.925107,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Palos Community Hospital</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.815933,41.668287,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Northwestern Memorial Hospital</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.621524,41.894623,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>South Shore Hospital</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.569200,41.749488,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Glenbrook Hospital</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.849209,42.090228,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bethany Hospital</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.712192,41.875442,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>University Of Chicago Medical Center</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.602431,41.788321,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sacred Heart Hospital</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.708036,41.890525,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Trinity Hospital</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.566806,41.726895,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Provident Hospital of Cook County</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.613684,41.802654,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>St. Anthony Hospital</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.698147,41.855171,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Loyola University Hospital</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.834700,41.860270,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Advocate South Suburban Hospital</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.694336,41.566482,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Streamwood Hospital</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -88.151131,42.007551,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Advocate Lutheran General Hospital</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.849801,42.039719,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>RML Health Providers Limited Partnership</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.916879,41.785808,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kindred Hospital  Chicago North</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.692971,41.961569,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kindred Hospital - Chicago Northlake</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.890424,41.907352,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Michael Reese Hospital &#38; Medical Center</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.613618,41.841324,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>St. Alexius Medical Center</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -88.144509,42.051218,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Advocate LaGrange Memorial Hospital</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.888470,41.797346,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>UHS Hartgrove  Hospital</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.720193,41.890509,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>St. James Hospital  &#38; Health Center</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.713239,41.522579,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Riveredge Hospital</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.828686,41.864561,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Advocate Illinois Masonic Medical Center</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.651365,41.936824,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Aurora Chicago Lakeshore Hospital</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.650566,41.970285,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MetroSouth Medical Center</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.678304,41.658995,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Louis A. Weiss Memorial Hospital</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.649613,41.966844,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MacNeal Memorial Hospital</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.792791,41.832652,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rehabilitation Institute of Chicago</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.618307,41.895483,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Maryville Academy / Scott A. Nolan Center</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.879197,42.044255,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kindred Chicago Central Hospital</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.728954,41.940249,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Alexian Brothers Behavioral Hospital</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -88.135967,42.054973,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Neurologic and Othopeadic Institute of Chicago</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.677154,41.963824,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LaRabida Children's Hospital</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.571379,41.777373,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cook County Hospital</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.672685,41.873725,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Norwegian American Hospital</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.699686,41.900805,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Jesse Grown Depart. of Veteran's Affairs Medical Center</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.677185,41.869880,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Chicago Read Mental Health Center</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.800206,41.955223,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Shriners Hospitals for Children</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.793157,41.919969,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kindred-Lakeshore</name>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Snippet></Snippet>
+      <Point>
+        <extrude>0</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates> -87.655817,41.993436,0.000000</coordinates>
+      </Point>
+    </Placemark>
+  </Folder>
+  <Style id="IconStyle00">
+    <IconStyle>
+      <Icon><href>000000.png</href></Icon>
+      <scale>1.000000</scale>
+    </IconStyle>
+    <LabelStyle>
+      <color>00000000</color>
+      <scale>0.000000</scale>
+    </LabelStyle>
+  </Style>
+</Document>
+</kml>
