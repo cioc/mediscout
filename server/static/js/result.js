@@ -1,11 +1,3 @@
-var hospitalTemplateStr = "<% _.each(rows, function(row){%><div class='cellTemplate'><div class='cellTextContainer'><div class='cellHeader'><%= row.name %></div><div class='neighborhood'><%= row.options %></div><div class='avgPrice'>$<%= row.billed %></div></div></div><% }); %>";
-
-var procedureTemplateStr = "<% _.each(rows, function(row){%><div class='cellTemplate'><div class='cellTextContainer'><div class='cellHeader'><%= row.hospitalName %></div><div class='neighborhood'><%= row.neighborhood %></div><div class='avgPrice'>$<%= row.billed %></div></div></div><% }); %>";
-
-var hospitalTemplate = _.template(hospitalTemplateStr);
-
-var procedureTemplate = _.template(procedureTemplateStr);
-
 function translateOption(op) {
   var pieces = op.split(' ');
   var out = '';
@@ -45,6 +37,8 @@ $(document).ready(function(req, res){
       console.log(data.name);
       $('#searchResultLabel').html(data.name.toString());
     }, 'json');
+    var hospitalTemplateStr = "<% _.each(rows, function(row){%><div class='cellTemplate'><div class='cellTextContainer'><div class='cellHeader'><a href='/info/<%= row.fed_proc_id %>/"+id+"'><%= row.name %></a></div><div class='neighborhood'><%= row.options %></div><div class='avgPrice'>$<%= row.billed %></div></div></div><% }); %>";
+    var hospitalTemplate = _.template(hospitalTemplateStr);
     $.get('/api/hospital/'+id+'/procedures', function(data){
       console.log(data);
       _.each(data, function(i){
@@ -66,6 +60,8 @@ $(document).ready(function(req, res){
       name = name.charAt(0).toUpperCase() + name.slice(1);
       $('#searchResultLabel').html(name);
     }, 'json'); 
+    var procedureTemplateStr = "<% _.each(rows, function(row){%><div class='cellTemplate'><div class='cellTextContainer'><div class='cellHeader'><a href='/info/<%= row.fed_proc_id %>/<%= row.fed_id %>'><%= row.hospitalName %></a></div><div class='neighborhood'><%= row.neighborhood %></div><div class='avgPrice'>$<%= row.billed %></div></div></div><% }); %>";
+    var procedureTemplate = _.template(procedureTemplateStr);
     $.get('/api/procedure/'+id+'/hospitals', function(data){
       console.log(data);    
       _.each(data, function(i){

@@ -176,7 +176,7 @@ app.get('/hospital/:id', function(req, res){
 });
 
 app.get('/info/:procedureid/:hospitalid', function(req, res){
-  //TODO - FILL THIS OUT
+  res.send('info');
 });
 
 process.on('uncaughtException', function(exception){
