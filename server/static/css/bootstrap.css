@@ -6186,3 +6186,9 @@ a.badge:focus {
   text-decoration: none;
   color: white;
 }
+
+#map-canvas {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+}

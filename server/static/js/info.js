@@ -9,6 +9,22 @@ $(document).ready(function(){
     console.log(data);
     $('#hospitalName').html(data.name);
     $('#address').html(data.addr + ' ' + data.city + ', ' + data.state + ' ' + data.zip); 
+    //GOOGLE MAPS CODE HERE
+    var lat = data.lat;
+    var lng = data.lng;
+    var latLng = new google.maps.LatLng(lat, lng);
+    var mapOptions = {
+      center: latLng,
+      zoom: 10,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+    var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+    var marker = new google.maps.Marker({
+      position: latLng,
+      map: map,
+      icon: '/img/mappoint-18.png',
+      title: data.name
+    }); 
   }, 'json');
   $.get('/api/hospital/'+hospital+'/procedures', function(data){
     var cost = "";

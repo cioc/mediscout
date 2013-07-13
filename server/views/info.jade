@@ -2,10 +2,12 @@ doctype 5
 html(lang="en")
   head
     title Sign Up
-    meta(name="viewport",content="width=device-width, initial-scale=1.0")
+    meta(name="viewport",content="width=device-width, initial-scale=1.0, user-scalable=no")
     script(src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js")
     script(src="/js/underscore-min.js")
+    script(src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBiJxMmUVAGwKTYgEuAlP9or7LPMKNPu3Q&sensor=true")
     script(src="/js/info.js")
+    script(src="/js/maps.js")
     link(href="/css/bootstrap.css",rel="stylesheet")
     link(href="/css/hospitaldescription1.css",rel="stylesheet")
     link(href="/css/bootstrap-responsive.css",rel="stylesheet")
@@ -31,5 +33,5 @@ html(lang="en")
         div(class="distanceFrom") Distance from you: 4.5m
         div(class="descriptionText",id="address") Full Address
       div(class="hospitalImage")
-        img(src="/img/University_College_Hospital_-_New_Building_-_London_-_020504.jpg")
+        div(id='map-canvas')
 
