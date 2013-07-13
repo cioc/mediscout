@@ -129,6 +129,7 @@ app.get('/api/search/:query', function(req, res){
   var query = "(SELECT fed_id AS id, name, MATCH(name, fed_name) AGAINST (? IN BOOLEAN MODE) AS score, neighborhood AS extra, 'hospital' AS result_type FROM hospitals WHERE MATCH(name, fed_name) AGAINST(? IN BOOLEAN MODE)) UNION (SELECT fed_proc_id  AS id, name, MATCH(name, description) AGAINST (? IN BOOLEAN MODE) AS score, options AS extra, 'procedure' AS result_type FROM procedures WHERE MATCH(name, description) AGAINST(? IN BOOLEAN MODE)) ORDER BY score DESC;";
   var search  = req.params.query.replace('-', ' ');
   search += "*";
+  console.log(search);
   db.query(query, [search, search, search, search], function(err, rows){
     if (err) {
       res.send({err: "error in /api/search/:query 1"});
@@ -144,7 +145,10 @@ app.get('/api/search/:query', function(req, res){
   });
 });
 
-
+//routes to views
+app.get('/', function(res, res){
+  res.render('search_noresults.jade',{});
+});
 
 process.on('uncaughtException', function(exception){
   console.log("uncaughtException: " + exception);

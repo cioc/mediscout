@@ -1,10 +1,11 @@
 doctype 5
 html(lang="en")
   head
-    title Sign Up
+    title Mediscout
     meta(name="viewport",content="width=device-width, initial-scale=1.0")
     script(src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js")
-    script(src="/js/signup.js")
+    script(src="/js/underscore-min.js")
+    script(src="/js/search.js")
     link(href="css/bootstrap.css",rel="stylesheet")
     link(href="css/main.css",rel="stylesheet")
     link(href="css/bootstrap-responsive.css",rel="stylesheet")
@@ -21,9 +22,6 @@ html(lang="en")
           div(id="searchIcon")
             img(src="/img/icon_searchlogo.png")
           div(class="searchBar")
-            input(type="text",placeholder="search a procedure",id="email")
+            input(type="text",placeholder="search a procedure",id="search")
     div(id="signUp")
       button(id="searchBtn",class="btn btn-large btn-primary") browse
-script(src="js/bootstrap.min.js")
-  
-    
