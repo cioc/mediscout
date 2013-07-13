@@ -150,6 +150,14 @@ app.get('/', function(res, res){
   res.render('search_noresults.jade',{});
 });
 
+app.get('/procedure/:id', function(req, res){
+  res.send('PROCEDURE');
+});
+
+app.get('/hospital/:id', function(req, res){
+  res.send('HOSPITAL');
+});
+
 process.on('uncaughtException', function(exception){
   console.log("uncaughtException: " + exception);
 });
