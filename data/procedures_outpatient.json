@@ -1,0 +1,30 @@
+{"type": "outpatient", "id": "0015", "name": "Level III Debridement & Destruction"}
+{"type": "outpatient", "id": "0013", "name": "Level II Debridement & Destruction"}
+{"type": "outpatient", "id": "0012", "name": "Level I Debridement & Destruction"}
+{"type": "outpatient", "id": "0270", "name": "Level III Echocardiogram Without Contrast"}
+{"type": "outpatient", "id": "0019", "name": "Level I Excision/ Biopsy"}
+{"type": "outpatient", "id": "0690", "name": "Level I Electronic Analysis of Devices"}
+{"type": "outpatient", "id": "0692", "name": "Level II Electronic Analysis of Devices"}
+{"type": "outpatient", "id": "0698", "name": "Level II Eye Tests & Treatments"}
+{"type": "outpatient", "id": "0369", "name": "Level III Pulmonary Tests"}
+{"type": "outpatient", "id": "0368", "name": "Level II Pulmonary Tests"}
+{"type": "outpatient", "id": "0607", "name": "Level 4 Hospital Clinic Visits"}
+{"type": "outpatient", "id": "0206", "name": "Level II Nerve Injections"}
+{"type": "outpatient", "id": "0207", "name": "Level III Nerve Injections"}
+{"type": "outpatient", "id": "0204", "name": "Level I Nerve Injections"}
+{"type": "outpatient", "id": "0203", "name": "Level IV Nerve Injections"}
+{"type": "outpatient", "id": "0209", "name": "Level II Extended EEG, Sleep, and Cardiovascular Studies"}
+{"type": "outpatient", "id": "0265", "name": "Level I Diagnostic and Screening Ultrasound"}
+{"type": "outpatient", "id": "0020", "name": "Level II Excision/ Biopsy"}
+{"type": "outpatient", "id": "0267", "name": "Level III Diagnostic and Screening Ultrasound"}
+{"type": "outpatient", "id": "0269", "name": "Level II Echocardiogram Without Contrast"}
+{"type": "outpatient", "id": "0078", "name": "Level III Pulmonary Treatment"}
+{"type": "outpatient", "id": "0377", "name": "Level II Cardiac Imaging"}
+{"type": "outpatient", "id": "0073", "name": "Level III Endoscopy Upper Airway"}
+{"type": "outpatient", "id": "0606", "name": "Level 3 Hospital Clinic Visits"}
+{"type": "outpatient", "id": "0074", "name": "Level IV Endoscopy Upper Airway"}
+{"type": "outpatient", "id": "0604", "name": "Level 1 Hospital Clinic Visits"}
+{"type": "outpatient", "id": "0605", "name": "Level 2 Hospital Clinic Visits"}
+{"type": "outpatient", "id": "0096", "name": "Level II Noninvasive Physiologic Studies"}
+{"type": "outpatient", "id": "0608", "name": "Level 5 Hospital Clinic Visits"}
+{"type": "outpatient", "id": "0336", "name": "Magnetic Resonance Imaging and Magnetic Resonance Angiography without Contrast"}

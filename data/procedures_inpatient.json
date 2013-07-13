@@ -1,0 +1,100 @@
+{"type": "inpatient", "id": "491", "name": "BACK & NECK PROC EXC SPINAL FUSION W/O CC/MCC"}
+{"type": "inpatient", "id": "690", "name": "KIDNEY & URINARY TRACT INFECTIONS W/O MCC"}
+{"type": "inpatient", "id": "698", "name": "OTHER KIDNEY & URINARY TRACT DIAGNOSES W MCC"}
+{"type": "inpatient", "id": "699", "name": "OTHER KIDNEY & URINARY TRACT DIAGNOSES W CC"}
+{"type": "inpatient", "id": "281", "name": "ACUTE MYOCARDIAL INFARCTION, DISCHARGED ALIVE W CC"}
+{"type": "inpatient", "id": "280", "name": "ACUTE MYOCARDIAL INFARCTION, DISCHARGED ALIVE W MCC"}
+{"type": "inpatient", "id": "812", "name": "RED BLOOD CELL DISORDERS W/O MCC"}
+{"type": "inpatient", "id": "282", "name": "ACUTE MYOCARDIAL INFARCTION, DISCHARGED ALIVE W/O CC/MCC"}
+{"type": "inpatient", "id": "287", "name": "CIRCULATORY DISORDERS EXCEPT AMI, W CARD CATH W/O MCC"}
+{"type": "inpatient", "id": "286", "name": "CIRCULATORY DISORDERS EXCEPT AMI, W CARD CATH W MCC"}
+{"type": "inpatient", "id": "379", "name": "G.I. HEMORRHAGE W/O CC/MCC"}
+{"type": "inpatient", "id": "378", "name": "G.I. HEMORRHAGE W CC"}
+{"type": "inpatient", "id": "372", "name": "MAJOR GASTROINTESTINAL DISORDERS & PERITONEAL INFECTIONS W CC"}
+{"type": "inpatient", "id": "418", "name": "LAPAROSCOPIC CHOLECYSTECTOMY W/O C.D.E. W CC"}
+{"type": "inpatient", "id": "419", "name": "LAPAROSCOPIC CHOLECYSTECTOMY W/O C.D.E. W/O CC/MCC"}
+{"type": "inpatient", "id": "377", "name": "G.I. HEMORRHAGE W MCC"}
+{"type": "inpatient", "id": "291", "name": "HEART FAILURE & SHOCK W MCC"}
+{"type": "inpatient", "id": "195", "name": "SIMPLE PNEUMONIA & PLEURISY W/O CC/MCC"}
+{"type": "inpatient", "id": "194", "name": "SIMPLE PNEUMONIA & PLEURISY W CC"}
+{"type": "inpatient", "id": "310", "name": "CARDIAC ARRHYTHMIA & CONDUCTION DISORDERS W/O CC/MCC"}
+{"type": "inpatient", "id": "191", "name": "CHRONIC OBSTRUCTIVE PULMONARY DISEASE W CC"}
+{"type": "inpatient", "id": "190", "name": "CHRONIC OBSTRUCTIVE PULMONARY DISEASE W MCC"}
+{"type": "inpatient", "id": "193", "name": "SIMPLE PNEUMONIA & PLEURISY W MCC"}
+{"type": "inpatient", "id": "192", "name": "CHRONIC OBSTRUCTIVE PULMONARY DISEASE W/O CC/MCC"}
+{"type": "inpatient", "id": "177", "name": "RESPIRATORY INFECTIONS & INFLAMMATIONS W MCC"}
+{"type": "inpatient", "id": "391", "name": "ESOPHAGITIS, GASTROENT & MISC DIGEST DISORDERS W MCC"}
+{"type": "inpatient", "id": "039", "name": "EXTRACRANIAL PROCEDURES W/O CC/MCC"}
+{"type": "inpatient", "id": "253", "name": "OTHER VASCULAR PROCEDURES W CC"}
+{"type": "inpatient", "id": "251", "name": "PERC CARDIOVASC PROC W/O CORONARY ARTERY STENT W/O MCC"}
+{"type": "inpatient", "id": "536", "name": "FRACTURES OF HIP & PELVIS W/O MCC"}
+{"type": "inpatient", "id": "918", "name": "POISONING & TOXIC EFFECTS OF DRUGS W/O MCC"}
+{"type": "inpatient", "id": "917", "name": "POISONING & TOXIC EFFECTS OF DRUGS W MCC"}
+{"type": "inpatient", "id": "308", "name": "CARDIAC ARRHYTHMIA & CONDUCTION DISORDERS W MCC"}
+{"type": "inpatient", "id": "309", "name": "CARDIAC ARRHYTHMIA & CONDUCTION DISORDERS W CC"}
+{"type": "inpatient", "id": "300", "name": "PERIPHERAL VASCULAR DISORDERS W CC"}
+{"type": "inpatient", "id": "301", "name": "PERIPHERAL VASCULAR DISORDERS W/O CC/MCC"}
+{"type": "inpatient", "id": "303", "name": "ATHEROSCLEROSIS W/O MCC"}
+{"type": "inpatient", "id": "305", "name": "HYPERTENSION W/O MCC"}
+{"type": "inpatient", "id": "244", "name": "PERMANENT CARDIAC PACEMAKER IMPLANT W/O CC/MCC"}
+{"type": "inpatient", "id": "247", "name": "PERC CARDIOVASC PROC W DRUG"}
+{"type": "inpatient", "id": "246", "name": "PERC CARDIOVASC PROC W DRUG"}
+{"type": "inpatient", "id": "243", "name": "PERMANENT CARDIAC PACEMAKER IMPLANT W CC"}
+{"type": "inpatient", "id": "389", "name": "G.I. OBSTRUCTION W CC"}
+{"type": "inpatient", "id": "101", "name": "SEIZURES W/O MCC"}
+{"type": "inpatient", "id": "249", "name": "PERC CARDIOVASC PROC W NON"}
+{"type": "inpatient", "id": "292", "name": "HEART FAILURE & SHOCK W CC"}
+{"type": "inpatient", "id": "293", "name": "HEART FAILURE & SHOCK W/O CC/MCC"}
+{"type": "inpatient", "id": "641", "name": "MISC DISORDERS OF NUTRITION,METABOLISM,FLUIDS/ELECTROLYTES W/O MCC"}
+{"type": "inpatient", "id": "640", "name": "MISC DISORDERS OF NUTRITION,METABOLISM,FLUIDS/ELECTROLYTES W MCC"}
+{"type": "inpatient", "id": "439", "name": "DISORDERS OF PANCREAS EXCEPT MALIGNANCY W CC"}
+{"type": "inpatient", "id": "330", "name": "MAJOR SMALL & LARGE BOWEL PROCEDURES W CC"}
+{"type": "inpatient", "id": "178", "name": "RESPIRATORY INFECTIONS & INFLAMMATIONS W CC"}
+{"type": "inpatient", "id": "252", "name": "OTHER VASCULAR PROCEDURES W MCC"}
+{"type": "inpatient", "id": "176", "name": "PULMONARY EMBOLISM W/O MCC"}
+{"type": "inpatient", "id": "057", "name": "DEGENERATIVE NERVOUS SYSTEM DISORDERS W/O MCC"}
+{"type": "inpatient", "id": "254", "name": "OTHER VASCULAR PROCEDURES W/O CC/MCC"}
+{"type": "inpatient", "id": "885", "name": "PSYCHOSES"}
+{"type": "inpatient", "id": "853", "name": "INFECTIOUS & PARASITIC DISEASES W O.R. PROCEDURE W MCC"}
+{"type": "inpatient", "id": "313", "name": "CHEST PAIN"}
+{"type": "inpatient", "id": "312", "name": "SYNCOPE & COLLAPSE"}
+{"type": "inpatient", "id": "189", "name": "PULMONARY EDEMA & RESPIRATORY FAILURE"}
+{"type": "inpatient", "id": "065", "name": "INTRACRANIAL HEMORRHAGE OR CEREBRAL INFARCTION W CC"}
+{"type": "inpatient", "id": "064", "name": "INTRACRANIAL HEMORRHAGE OR CEREBRAL INFARCTION W MCC"}
+{"type": "inpatient", "id": "066", "name": "INTRACRANIAL HEMORRHAGE OR CEREBRAL INFARCTION W/O CC/MCC"}
+{"type": "inpatient", "id": "069", "name": "TRANSIENT ISCHEMIA"}
+{"type": "inpatient", "id": "563", "name": "FX, SPRN, STRN & DISL EXCEPT FEMUR, HIP, PELVIS & THIGH W/O MCC"}
+{"type": "inpatient", "id": "460", "name": "SPINAL FUSION EXCEPT CERVICAL W/O MCC"}
+{"type": "inpatient", "id": "315", "name": "OTHER CIRCULATORY SYSTEM DIAGNOSES W CC"}
+{"type": "inpatient", "id": "811", "name": "RED BLOOD CELL DISORDERS W MCC"}
+{"type": "inpatient", "id": "314", "name": "OTHER CIRCULATORY SYSTEM DIAGNOSES W MCC"}
+{"type": "inpatient", "id": "392", "name": "ESOPHAGITIS, GASTROENT & MISC DIGEST DISORDERS W/O MCC"}
+{"type": "inpatient", "id": "390", "name": "G.I. OBSTRUCTION W/O CC/MCC"}
+{"type": "inpatient", "id": "074", "name": "CRANIAL & PERIPHERAL NERVE DISORDERS W/O MCC"}
+{"type": "inpatient", "id": "603", "name": "CELLULITIS W/O MCC"}
+{"type": "inpatient", "id": "602", "name": "CELLULITIS W MCC"}
+{"type": "inpatient", "id": "394", "name": "OTHER DIGESTIVE SYSTEM DIAGNOSES W CC"}
+{"type": "inpatient", "id": "552", "name": "MEDICAL BACK PROBLEMS W/O MCC"}
+{"type": "inpatient", "id": "238", "name": "MAJOR CARDIOVASC PROCEDURES W/O MCC"}
+{"type": "inpatient", "id": "469", "name": "MAJOR JOINT REPLACEMENT OR REATTACHMENT OF LOWER EXTREMITY W MCC"}
+{"type": "inpatient", "id": "872", "name": "SEPTICEMIA OR SEVERE SEPSIS W/O MV 96+ HOURS W/O MCC"}
+{"type": "inpatient", "id": "870", "name": "SEPTICEMIA OR SEVERE SEPSIS W MV 96+ HOURS"}
+{"type": "inpatient", "id": "871", "name": "SEPTICEMIA OR SEVERE SEPSIS W/O MV 96+ HOURS W MCC"}
+{"type": "inpatient", "id": "638", "name": "DIABETES W CC"}
+{"type": "inpatient", "id": "329", "name": "MAJOR SMALL & LARGE BOWEL PROCEDURES W MCC"}
+{"type": "inpatient", "id": "203", "name": "BRONCHITIS & ASTHMA W/O CC/MCC"}
+{"type": "inpatient", "id": "202", "name": "BRONCHITIS & ASTHMA W CC/MCC"}
+{"type": "inpatient", "id": "207", "name": "RESPIRATORY SYSTEM DIAGNOSIS W VENTILATOR SUPPORT 96+ HOURS"}
+{"type": "inpatient", "id": "897", "name": "ALCOHOL/DRUG ABUSE OR DEPENDENCE W/O REHABILITATION THERAPY W/O MCC"}
+{"type": "inpatient", "id": "208", "name": "RESPIRATORY SYSTEM DIAGNOSIS W VENTILATOR SUPPORT <96 HOURS"}
+{"type": "inpatient", "id": "149", "name": "DYSEQUILIBRIUM"}
+{"type": "inpatient", "id": "482", "name": "HIP & FEMUR PROCEDURES EXCEPT MAJOR JOINT W/O CC/MCC"}
+{"type": "inpatient", "id": "481", "name": "HIP & FEMUR PROCEDURES EXCEPT MAJOR JOINT W CC"}
+{"type": "inpatient", "id": "480", "name": "HIP & FEMUR PROCEDURES EXCEPT MAJOR JOINT W MCC"}
+{"type": "inpatient", "id": "948", "name": "SIGNS & SYMPTOMS W/O MCC"}
+{"type": "inpatient", "id": "473", "name": "CERVICAL SPINAL FUSION W/O CC/MCC"}
+{"type": "inpatient", "id": "470", "name": "MAJOR JOINT REPLACEMENT OR REATTACHMENT OF LOWER EXTREMITY W/O MCC"}
+{"type": "inpatient", "id": "689", "name": "KIDNEY & URINARY TRACT INFECTIONS W MCC"}
+{"type": "inpatient", "id": "684", "name": "RENAL FAILURE W/O CC/MCC"}
+{"type": "inpatient", "id": "683", "name": "RENAL FAILURE W CC"}
+{"type": "inpatient", "id": "682", "name": "RENAL FAILURE W MCC"}
