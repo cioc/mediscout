@@ -160,9 +160,8 @@ input {
 .cellTemplate {
   background-color: rgba(255, 255, 255, 0.5);
   width: 100%;
-  height: 5.5em;
-  position: relative;
   margin-bottom: 0.2em;
+  float: left;
 }
 
 .cellTextContainer {

@@ -151,11 +151,11 @@ app.get('/', function(res, res){
 });
 
 app.get('/procedure/:id', function(req, res){
-  res.send('PROCEDURE');
+  res.render('list', {})
 });
 
 app.get('/hospital/:id', function(req, res){
-  res.send('HOSPITAL');
+  res.render('list', {});
 });
 
 process.on('uncaughtException', function(exception){
