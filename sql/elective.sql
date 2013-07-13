@@ -1,0 +1,110 @@
+update procedures set elective = "E" where fed_proc_id = "491";
+update procedures set elective = "E+U" where fed_proc_id = "690";
+update procedures set elective = "E" where fed_proc_id = "698";
+update procedures set elective = "E" where fed_proc_id = "699";
+update procedures set elective = "U" where fed_proc_id = "281";
+update procedures set elective = "U" where fed_proc_id = "280";
+update procedures set elective = "E" where fed_proc_id = "812";
+update procedures set elective = "U" where fed_proc_id = "282";
+update procedures set elective = "E" where fed_proc_id = "287";
+update procedures set elective = "E" where fed_proc_id = "286";
+-- NEXT IS G.I. HEMORRPAHE W/0 CC/MCC
+update procedures set elective = "U" where fed_proc_id = "379";
+update procedures set elective = "U" where fed_proc_id = "378";
+update procedures set elective = "E" where fed_proc_id = "372";
+update procedures set elective = "E" where fed_proc_id = "418";
+update procedures set elective = "E" where fed_proc_id = "419";
+update procedures set elective = "U" where fed_proc_id = "377";
+update procedures set elective = "U" where fed_proc_id = "291";
+update procedures set elective = "E" where fed_proc_id = "195";
+update procedures set elective = "E" where fed_proc_id = "194";
+update procedures set elective = "U+E" where fed_proc_id = "310";
+-- NEXT IS CHRONIC OBSTRUCTIVE PULMONARY DISEASE W CC
+update procedures set elective = "E" where fed_proc_id = "191";
+update procedures set elective = "E" where fed_proc_id = "190";
+update procedures set elective = "E" where fed_proc_id = "193";
+update procedures set elective = "E" where fed_proc_id = "192";
+update procedures set elective = "E" where fed_proc_id = "177";
+update procedures set elective = "E" where fed_proc_id = "391";
+update procedures set elective = "E" where fed_proc_id = "039";
+update procedures set elective = "E" where fed_proc_id = "253";
+update procedures set elective = "E" where fed_proc_id = "251";
+update procedures set elective = "U" where fed_proc_id = "536";
+-- POISONING & TOXIC EFFECTS OF DRUGS W/O MCC
+update procedures set elective = "U" where fed_proc_id = "918";
+update procedures set elective = "U" where fed_proc_id = "917";
+update procedures set elective = "U" where fed_proc_id = "308";
+update procedures set elective = "U" where fed_proc_id = "309";
+update procedures set elective = "E" where fed_proc_id = "300";
+update procedures set elective = "E" where fed_proc_id = "301";
+update procedures set elective = "E" where fed_proc_id = "303";
+update procedures set elective = "E" where fed_proc_id = "305";
+update procedures set elective = "E" where fed_proc_id = "244";
+update procedures set elective = "E" where fed_proc_id = "247";
+-- PERC CARDIOVASC PROC W DRUG (2)
+update procedures set elective = "E" where fed_proc_id = "246";
+update procedures set elective = "E" where fed_proc_id = "243";
+update procedures set elective = "U" where fed_proc_id = "389";
+update procedures set elective = "U" where fed_proc_id = "101";
+update procedures set elective = "E" where fed_proc_id = "249";
+update procedures set elective = "U" where fed_proc_id = "292";
+update procedures set elective = "U" where fed_proc_id = "293";
+update procedures set elective = "E" where fed_proc_id = "641";
+update procedures set elective = "E" where fed_proc_id = "640";
+update procedures set elective = "E" where fed_proc_id = "439";
+-- MAJOR SMALL & LARGE BOWEL PROCEDURES W CC
+update procedures set elective = "E" where fed_proc_id = "330";
+update procedures set elective = "E" where fed_proc_id = "178";
+update procedures set elective = "E" where fed_proc_id = "252";
+update procedures set elective = "U" where fed_proc_id = "176";
+update procedures set elective = "E" where fed_proc_id = "057";
+update procedures set elective = "E" where fed_proc_id = "254";
+update procedures set elective = "E" where fed_proc_id = "885";
+update procedures set elective = "E" where fed_proc_id = "853";
+update procedures set elective = "U" where fed_proc_id = "313";
+update procedures set elective = "U" where fed_proc_id = "312";
+-- PULMONARY EDEMA & RESPIRATORY FAILURE
+update procedures set elective = "U" where fed_proc_id = "189";
+update procedures set elective = "U" where fed_proc_id = "065";
+update procedures set elective = "U" where fed_proc_id = "064";
+update procedures set elective = "U" where fed_proc_id = "066";
+update procedures set elective = "U" where fed_proc_id = "069";
+update procedures set elective = "E" where fed_proc_id = "563";
+update procedures set elective = "E" where fed_proc_id = "460";
+update procedures set elective = "E" where fed_proc_id = "315";
+update procedures set elective = "E" where fed_proc_id = "811";
+update procedures set elective = "E" where fed_proc_id = "314";
+-- ESOPHAGITIS...
+update procedures set elective = "E" where fed_proc_id = "392";
+update procedures set elective = "U" where fed_proc_id = "390";
+update procedures set elective = "E" where fed_proc_id = "074";
+update procedures set elective = "E" where fed_proc_id = "603";
+update procedures set elective = "E" where fed_proc_id = "602";
+update procedures set elective = "E" where fed_proc_id = "394";
+update procedures set elective = "E" where fed_proc_id = "552";
+update procedures set elective = "E" where fed_proc_id = "238";
+update procedures set elective = "E" where fed_proc_id = "469";
+update procedures set elective = "U" where fed_proc_id = "872";
+-- SEPTICEMIA OR ... W MV 96+ HOURS
+update procedures set elective = "U" where fed_proc_id = "870";
+update procedures set elective = "U" where fed_proc_id = "871";
+update procedures set elective = "E" where fed_proc_id = "638";
+update procedures set elective = "E" where fed_proc_id = "329";
+update procedures set elective = "E" where fed_proc_id = "203";
+update procedures set elective = "E" where fed_proc_id = "202";
+update procedures set elective = "U" where fed_proc_id = "207";
+update procedures set elective = "E" where fed_proc_id = "897";
+update procedures set elective = "U" where fed_proc_id = "208";
+update procedures set elective = "U+E" where fed_proc_id = "149";
+--  HIP & FEMUR ... W/O CC/MCC 
+update procedures set elective = "E" where fed_proc_id = "482";
+update procedures set elective = "E" where fed_proc_id = "481";
+update procedures set elective = "E" where fed_proc_id = "480";
+update procedures set elective = "E" where fed_proc_id = "948";
+update procedures set elective = "E" where fed_proc_id = "473";
+update procedures set elective = "E" where fed_proc_id = "470";
+update procedures set elective = "E+U" where fed_proc_id = "689";
+update procedures set elective = "E+U" where fed_proc_id = "684";
+update procedures set elective = "U" where fed_proc_id = "683";
+update procedures set elective = "U" where fed_proc_id = "682";
+
