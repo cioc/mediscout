@@ -6181,3 +6181,8 @@ a.badge:focus {
 .affix {
   position: fixed;
 }
+
+.linkNoFormat {
+  text-decoration: none;
+  color: white;
+}

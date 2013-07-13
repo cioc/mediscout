@@ -1,0 +1,35 @@
+doctype 5
+html(lang="en")
+  head
+    title Sign Up
+    meta(name="viewport",content="width=device-width, initial-scale=1.0")
+    script(src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js")
+    script(src="/js/underscore-min.js")
+    script(src="/js/info.js")
+    link(href="/css/bootstrap.css",rel="stylesheet")
+    link(href="/css/hospitaldescription1.css",rel="stylesheet")
+    link(href="/css/bootstrap-responsive.css",rel="stylesheet")
+    link(href="http://fonts.googleapis.com/css?family=Roboto:300", rel="stylesheet", type="text/css")
+  body
+    div(id="navBarContainer")
+      div(id="navBarTitle")
+        a(href='/',class="linkNoFormat") mediscout
+    div(class="inputContainer2")
+      div(id="searchResultLabel")
+    div(class="descriptionContainer")
+        div(class="cellHeader", id="hospitalName")
+        div(class="columnContainer")  
+          div(class="columnLeft")
+            div(class="columnHeader") Avg Cost Here:
+            div(class="priceInColumn",id="cost")
+          div(class="columnRight")
+            div(class="columnHeader") Avg Cost in Chicago:
+            div(class="priceInColumn",id="avgcost")
+        
+    div(class="descriptionContainer")
+      div(class="descriptionTextContainer")
+        div(class="distanceFrom") Distance from you: 4.5m
+        div(class="descriptionText",id="address") Full Address
+      div(class="hospitalImage")
+        img(src="/img/University_College_Hospital_-_New_Building_-_London_-_020504.jpg")
+
