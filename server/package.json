@@ -1,0 +1,15 @@
+{
+  "name": "healthcare",
+  "description": "backend for chicago healthcare search",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "",
+    "passport": "",
+    "passport-local": "",
+    "jade": "",
+    "underscore": "",
+    "mysql": "2.0.0-alpha7"
+  }
+}
+
