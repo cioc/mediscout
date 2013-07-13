@@ -98,7 +98,7 @@ app.get('/api/procedure/:id', function(req, res){
       }
       else {
         if (rows) {
-          res.send(rows); 
+          res.send(rows[0]); 
         }
         else {
           res.send({err: "error in /api/procedure/:id 1"});

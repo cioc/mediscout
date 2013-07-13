@@ -1,6 +1,10 @@
 var hospitalTemplateStr = "<% _.each(rows, function(row){%><div class='cellTemplate'><div class='cellTextContainer'><div class='cellHeader'><%= row.name %></div><div class='neighborhood'><%= row.options %></div><div class='avgPrice'>$<%= row.billed %></div></div></div><% }); %>";
 
+var procedureTemplateStr = "<% _.each(rows, function(row){%><div class='cellTemplate'><div class='cellTextContainer'><div class='cellHeader'><%= row.hospitalName %></div><div class='neighborhood'><%= row.neighborhood %></div><div class='avgPrice'>$<%= row.billed %></div></div></div><% }); %>";
+
 var hospitalTemplate = _.template(hospitalTemplateStr);
+
+var procedureTemplate = _.template(procedureTemplateStr);
 
 $(document).ready(function(req, res){
   var path = window.location.pathname;
@@ -11,8 +15,9 @@ $(document).ready(function(req, res){
   console.log(id); 
   if (type == 'hospital') {
     $.get('/api/hospital/'+id, function(data){
-      console.log(data); 
-      $('#searchResultLabel').html(data.name);
+      console.log(data);
+      console.log(data.name);
+      $('#searchResultLabel').html(data.name.toString());
     }, 'json');
     $.get('/api/hospital/'+id+'/procedures', function(data){
       console.log(data);
@@ -25,6 +30,18 @@ $(document).ready(function(req, res){
     }, 'json'); 
   }
   if (type == 'procedure') {
-  
+    $.get('/api/procedure/'+id, function(data){
+      console.log(data);
+      var name = data.name; 
+      name = name.toLowerCase();
+      name = name.charAt(0).toUpperCase() + name.slice(1);
+      $('#searchResultLabel').html(name);
+    }, 'json'); 
+    $.get('/api/procedure/'+id+'/hospitals', function(data){
+      console.log(data);    
+       _.each(data, function(i){
+      });
+      $('.inputContainer2').after(procedureTemplate({rows: data}));
+    }); 
   }
 });
