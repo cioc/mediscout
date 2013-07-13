@@ -125,6 +125,23 @@ app.get('/api/procedure/:id/hospitals', function(req, res){
   });   
 });
 
+app.get('/api/procedure/:id/avg', function(req, res){
+  query = "SELECT AVG(billed) as avg FROM costs WHERE fed_proc_id = ?";
+  db.query(query, [req.params.id], function(err, rows){
+    if (err) {
+      res.send({err: "error in /api/procedure/:id/avg 1"});
+    }
+    else {
+      if (rows && rows.length > 0) {
+        res.send(rows[0]); 
+      }
+      else {
+        res.send({err: "error in /api/procedure/:id/avg 2"});
+      }
+    }
+  }); 
+});
+
 app.get('/api/search/:query', function(req, res){
   var query = "(SELECT fed_id AS id, name, MATCH(name, fed_name) AGAINST (? IN BOOLEAN MODE) AS score, neighborhood AS extra, 'hospital' AS result_type FROM hospitals WHERE MATCH(name, fed_name) AGAINST(? IN BOOLEAN MODE)) UNION (SELECT fed_proc_id  AS id, name, MATCH(name, description) AGAINST (? IN BOOLEAN MODE) AS score, options AS extra, 'procedure' AS result_type FROM procedures WHERE MATCH(name, description) AGAINST(? IN BOOLEAN MODE)) ORDER BY score DESC;";
   var search  = req.params.query.replace('-', ' ');
@@ -156,6 +173,10 @@ app.get('/procedure/:id', function(req, res){
 
 app.get('/hospital/:id', function(req, res){
   res.render('list', {});
+});
+
+app.get('/info/:procedureid/:hospitalid', function(req, res){
+  //TODO - FILL THIS OUT
 });
 
 process.on('uncaughtException', function(exception){
